@@ -19,5 +19,3 @@ This project is a **Virtual Whiteboard** application built using Python, OpenCV,
 - Captures live video feed and overlays the detected hand landmarks and drawings.
 
 ---
-
-Feel free to copy and paste this into your `README.md` file. Let me know if you need any additional edits! 🚀
