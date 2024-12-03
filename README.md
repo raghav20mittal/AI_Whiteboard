@@ -1,26 +1,38 @@
-# Virtual Whiteboard
-Using Python, Computer Vision and Google MediaPipe Libraries
-Link to the toolkit design - [Canva Virtual Whiteboard UI](https://www.canva.com/design/DAEdq1bEIA4/q8qvATq6UcUWav4u6Moneg/view?utm_content=DAEdq1bEIA4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+AI Whiteboard
+This project is a Virtual Whiteboard application built using Python, OpenCV, and MediaPipe. The application utilizes hand tracking to detect hand gestures and allows users to draw on a virtual canvas. It combines the power of computer vision with an intuitive user experience to provide an interactive and seamless drawing tool.
 
-## Installation Guide
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Clone GitHub Repository
- Open Command Prompt -->
-`git clone https://github.com/viraj-lakshitha/ai-whiteboard-using-opencv.git`
+Features
+1. Hand Tracking with MediaPipe:
+   Uses MediaPipe's Hand module for real-time hand landmark detection.
+   Tracks finger positions and identifies gestures.
+   
+3. Drawing on a Virtual Canvas:
+   Allows users to draw by moving their hands in front of the camera.
+   Recognizes gestures like finger pointing for more precise control.
+   
+5. Customizable Parameters:
+   Adjust detection confidence, tracking confidence, and maximum hands for better performance on different systems.
+   
+7. Real-Time Frame Display:
+   Captures live video feed and overlays the detected hand landmarks and drawings.
 
-### Install Required Packages and Libraries
-```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Usage Instructions
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/viraj-lakshitha/ai-whiteboard-using-opencv.git
+Install the required libraries:
+bash
+Copy code
 pip upgrade --user pip
-pip install opencv-python
-pip install numpy
-pip install mediapipe
-```
-
-### Run Project
-Open project from PyCharm or suitable IDE and run the VirtualPainter.py file or Open Command Prompt and Run `python VirtualPainter.py`
-
-## Guide
-![guide-img](./guide.png)
-
-## Demo 
-[![Virtual Whiteboard](https://res.cloudinary.com/marcomontalbano/image/upload/v1620299484/video_to_markdown/images/youtube--vF5HnA5sO6c-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/vF5HnA5sO6c "Virtual Whiteboard")
+pip install opencv-python numpy mediapipe
+Run the application:
+Use PyCharm or a similar IDE to run the main script (e.g., VirtualPainter.py).
+Or run it directly from the command line:
+bash
+Copy code
+python VirtualPainter.py
