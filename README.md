@@ -18,21 +18,4 @@ Features
 7. Real-Time Frame Display:
    Captures live video feed and overlays the detected hand landmarks and drawings.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Usage Instructions
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/viraj-lakshitha/ai-whiteboard-using-opencv.git
-Install the required libraries:
-bash
-Copy code
-pip upgrade --user pip
-pip install opencv-python numpy mediapipe
-Run the application:
-Use PyCharm or a similar IDE to run the main script (e.g., VirtualPainter.py).
-Or run it directly from the command line:
-bash
-Copy code
-python VirtualPainter.py
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
